@@ -129,6 +129,7 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			display: none;
 		}
 			#tweet-controls div {
 				display: inline-block;
@@ -139,7 +140,12 @@ body {
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
 			}
 
-/* TWEET */
+
+.composing{
+	height: 5em;
+}
+
+ TWEET 
 .tweet {
 	clear: both;
 	padding: 9px 12px;
